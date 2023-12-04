@@ -68,7 +68,7 @@
 
     
     <agent 
-      text="Ajude os zumbis a voltarem a vida... Pegue a porção e coloque neles" font-size="15" x="20" y="450" 
+      text="Ajude os zumbis a voltarem a vida antes ... Pegue a porção e coloque neles" font-size="15" x="20" y="450" 
       width="400" color="green" on-trigger="por2"> 
     
     	<lived text="AGROA VAMOS PARA CASAAA" />
