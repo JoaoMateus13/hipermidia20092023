@@ -13,8 +13,7 @@
       <restore img="homzumbi-PhotoRoom.png-PhotoRoom.png" width="80" height="80" /> 
     </agent>
 
-    <agent img="TombStone (1).png" x="450" y="130" width="40" height="40"
-    </agent>
+    <agent img="SigArrow.png" x="450" y="130" width="40" height="40"/>
 
     
 
@@ -26,7 +25,6 @@
     <agent img="Tile (2).png" x="320" y="50" width="120" height="80" />
     <agent img="Tile (3).png" x="420" y="50" width="80" height="80" />
 
-    <agent img="TombStone (1).png" x="450" y="130" width="40" height="40" />
     <agent img="TombStone (2).png" x="280" y="130" width="40" height="40" />
     <agent img="Bone (2).png" x="380" y="120" width="50" height="40" />
     <agent img="Bone (2).png" x="350" y="120" width="50" height="40" />
