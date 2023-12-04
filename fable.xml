@@ -80,7 +80,11 @@
     <agent img="Bone (2).png" x="380" y="120" width="50" height="40" />
     <agent img="Bone (2).png" x="350" y="120" width="50" height="40" />
 
-    <agent img="portion.png" x="350" y="220" width="40" height="40" draggable="true" on-drop="vira" on-zone="por" on-trigger="por">
+    <agent img="portion.png" x="450" y="120" width="40" height="40" draggable="true" on-drop="vira" on-zone="por" on-trigger="por">
+      <lived x="-200" />
+    </agent> 
+
+    <agent img="portion.png" x="450" y="120" width="40" height="40" draggable="true" on-drop="vira" on-zone="por" on-trigger="por">
       <lived x="-200" />
     </agent> 
         
