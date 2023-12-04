@@ -13,7 +13,6 @@
       <restore img="head.png" width="10" height="10" /> 
     </agent>
 
-    <agent img="adventurer_hurt.png" x="50" y="130" width="80" height="80"/>
     
 
 
