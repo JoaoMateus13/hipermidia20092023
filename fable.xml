@@ -3,7 +3,7 @@
   
 
     
-    <agent img="zombie_duck.png" x="380" y="130" width="80" height="80" />
+    <agent img="zombie_action1.png" x="380" y="130" width="80" height="80" />
     <agent img="zombie_duck.png" x="300" y="130" width="80" height="80" />
 
     <agent 
