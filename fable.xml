@@ -4,7 +4,7 @@
 
     
     <agent img="zombie_duck.png" x="380" y="130" width="80" height="80" />
-    <agent img="zombie_duck.png" x="300" y="130" width="80" height="80" />
+    <agent img="zombie_duck.png" x="300" y="130" width="-80" height="-80" />
 
     <agent 
       text="Oh não! um desafio pela frente... pegue um crânio e leve até o boneco para passar pelos zumbis" font-size="15" x="20" y="450" 
@@ -80,7 +80,7 @@
     <agent img="TombStone (2).png" x="280" y="130" width="40" height="40" />
     <agent img="Bone (2).png" x="380" y="120" width="50" height="40" />
     <agent img="Bone (2).png" x="350" y="120" width="50" height="40" />
-    <agent img="" x="350" y="120" width="50" height="40" />
+    <agent img="zombie_cheer1.png" x="350" y="120" width="50" height="40" />
     <agent img="Bone (3).png" x="350" y="120" width="50" height="40" />
     <agent img="Bone (4).png" x="320" y="120" width="50" height="40" />
     <agent img="Bone (4).png" x="330" y="120" width="50" height="40" />
