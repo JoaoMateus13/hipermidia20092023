@@ -3,7 +3,7 @@
   
     <agent text="Zed acordou em um cemitério estranho e sombrio, completamente confuso e assustado. Ele olhou ao redor e percebeu que estava cercado por zumbis que vagavam lentamente entre as lápides, gemendo e procurando por carne humana." x="50" y="400" color='red'/>
     
-    <agent img="box.png" x="400" y="350" width="50" height="50" />
+    <agent img="zombie_duck.png" x="400" y="350" width="50" height="50" />
 
     <agent video="mov.mp4" x="50" y="50" width="300" height="300" />
     
