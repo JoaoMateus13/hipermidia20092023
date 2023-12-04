@@ -10,7 +10,7 @@
       text="Oh não! um desafio pela frente... pegue um crânio e leve até o boneco para passar pelos zumbis" font-size="15" x="20" y="450" 
       width="400" color="green" on-trigger="lived"> 
     
-    	<restore text="Agora tente achar em qual lápide está o caminho para sair" />
+    	<lived text="Agora tente achar em qual lápide está o caminho para sair" />
     </agent>
     
     <agent img="adventurer_hurt.png" x="50" y="130" width="80" 
@@ -22,9 +22,9 @@
         
     <agent 
       img="TombStone (1).png" x="450" y="130" width="40" 
-      height="40" on-trigger="restore">		 
+      height="40" on-touch="lapi">		 
     	
-      <restore img="SignArrow.png" on-touch="_NEXT_PAGE"/>    
+      <lapi img="SignArrow.png" on-touch="_NEXT_PAGE"/>    
     </agent>
 
     
