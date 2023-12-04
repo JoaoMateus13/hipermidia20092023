@@ -7,7 +7,11 @@
     
     <agent img="zombie_duck.png" x="380" y="130" width="80" height="80" />
     <agent img="zombie_duck.png" x="300" y="130" width="80" height="80" />
-    <agent img="adventurer_hurt.png" x="30" y="130" width="80" height="80" />
+    <agent img="adventurer_hurt.png" x="50" y="130" width="80" 
+      height="80" drop-zone="restore"> 
+    	
+      <restore img="cavaleiro.png" width="80" height="100" /> 
+    </agent>
 
 
     <agent img="Tile (1).png" x="0" y="50" width="80" height="80" />
