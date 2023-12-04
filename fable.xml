@@ -29,9 +29,6 @@
 
     
 
-    
-
-
     <agent img="Tile (1).png" x="0" y="50" width="80" height="80" />
     <agent img="Tile (2).png" x="80" y="50" width="80" height="80" />
     <agent img="Tile (2).png" x="160" y="50" width="80" height="80" />
