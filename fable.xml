@@ -76,7 +76,6 @@
     <agent img="Tile (2).png" x="240" y="50" width="80" height="80" />
     <agent img="Tile (2).png" x="320" y="50" width="120" height="80" />
     <agent img="Tile (3).png" x="420" y="50" width="80" height="80" />
-    <agent img="portion.png" x="250" y="120" width="40" height="40" />
     <agent img="TombStone (2).png" x="280" y="130" width="40" height="40" />
     <agent img="Bone (2).png" x="380" y="120" width="50" height="40" />
     <agent img="Bone (2).png" x="350" y="120" width="50" height="40" />
@@ -93,6 +92,11 @@
     <agent img="Bone (3).png" x="170" y="120" width="50" height="40" />
     <agent img="Bone (2).png" x="150" y="115" width="50" height="40" />
     <agent img="Bone (2).png" x="130" y="115" width="50" height="40" />
+
+
+
+    <agent img="portion.png" x="250" y="120" width="40" height="40" />
+    <agent img="zombie_cheer1.png" x="350" y="130" width="80" height="80" />
 
     </page>
 </fable>
