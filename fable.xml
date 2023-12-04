@@ -60,6 +60,13 @@
     <page background="noite_dark.png".png" >
 
     
+    <agent 
+      text="Ajude e" font-size="15" x="20" y="450" 
+      width="400" color="green" on-trigger="lived"> 
+    
+    	<lived text="Agora tente achar em qual lápide está o caminho para sair" />
+    </agent>
+    
     <agent img="adventurer_walk1.png"  x="50" y="130" width="80" 
       height="80"/>
         
