@@ -10,7 +10,7 @@
       text="Oh não! um desafio pela frente... PEGUE UM CRÂNIO PARA PASSAR PELOS ZUMBIS" font-size="18" x="20" y="450" 
       width="400" color="green" on-trigger="restore"> 
     
-    	<restore text="Agora tente ac" />
+    	<restore text="Agora tente achar em qual lampide está" />
     </agent>
     
     <agent img="adventurer_hurt.png" x="50" y="130" width="80" 
