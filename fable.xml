@@ -61,6 +61,32 @@
 
     
     <agent img="zombie_duck.png" x="34" y="35" height="23" width="34"/>
+        
+    <agent img="Tile (1).png" x="0" y="50" width="80" height="80" />
+    <agent img="Tile (2).png" x="80" y="50" width="80" height="80" />
+    <agent img="Tile (2).png" x="160" y="50" width="80" height="80" />
+    <agent img="Tile (2).png" x="240" y="50" width="80" height="80" />
+    <agent img="Tile (2).png" x="320" y="50" width="120" height="80" />
+    <agent img="Tile (3).png" x="420" y="50" width="80" height="80" />
+
+    <agent img="TombStone (2).png" x="280" y="130" width="40" height="40" />
+    <agent img="Bone (2).png" x="380" y="120" width="50" height="40" />
+    <agent img="Bone (2).png" x="350" y="120" width="50" height="40" />
+    <agent img="Bone (3).png" x="350" y="120" width="50" height="40" />
+    <agent img="Bone (4).png" x="320" y="120" width="50" height="40" />
+    <agent img="Bone (4).png" x="330" y="120" width="50" height="40" />
+    <agent img="Bone (2).png" x="310" y="120" 
+      width="50" height="40" draggable="true" on-drop="vira" on-zone="lived" on-trigger="lived">
+      <lived x="-200" />
+    </agent> 
+    <agent img="Bone (2).png" x="250" y="120" width="50" height="40" />
+    <agent img="Bone (3).png" x="250" y="120" width="50" height="40" />
+    <agent img="Bone (4).png" x="220" y="115" width="50" height="40" />
+    <agent img="Bone (4).png" x="230" y="115" width="50" height="40" />
+    <agent img="Bone (2).png" x="190" y="120" width="50" height="40" />
+    <agent img="Bone (3).png" x="170" y="120" width="50" height="40" />
+    <agent img="Bone (2).png" x="150" y="115" width="50" height="40" />
+    <agent img="Bone (2).png" x="130" y="115" width="50" height="40" />
 
     </page>
 </fable>
