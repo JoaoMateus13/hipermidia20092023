@@ -9,12 +9,12 @@
 
     <agent img="adventurer_hurt.png" x="30" y="130" width="80" height="80" />
 
-    <agent img="Tile (1).png" x="0" y="130" width="80" height="80" />
-    <agent img="Tile (2).png" x="80" y="130" width="80" height="80" />
-    <agent img="Tile (2).png" x="160" y="130" width="80" height="80" />
-    <agent img="Tile (2).png" x="240" y="130" width="80" height="80" />
-    <agent img="Tile (2).png" x="320" y="130" width="120" height="80" />
-    <agent img="Tile (3).png" x="420" y="130" width="80" height="80" />
+    <agent img="Tile (1).png" x="0" y="50" width="80" height="80" />
+    <agent img="Tile (2).png" x="80" y="50" width="80" height="80" />
+    <agent img="Tile (2).png" x="160" y="50" width="80" height="80" />
+    <agent img="Tile (2).png" x="240" y="50" width="80" height="80" />
+    <agent img="Tile (2).png" x="320" y="50" width="120" height="80" />
+    <agent img="Tile (3).png" x="420" y="50" width="80" height="80" />
 
     <agent video="mov.mp4" x="50" y="50" width="300" height="300" />
     
