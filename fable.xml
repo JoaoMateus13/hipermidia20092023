@@ -14,13 +14,20 @@
       <restore img="homzumbi-PhotoRoom.png-PhotoRoom.png" width="80" height="80" /> 
     </agent>
 
-    <agent img="SignArrow.png" x="450" y="130" width="40" height="40"/>
+
 
     <agent 
-      img="TombStone (2).png" x="450" y="130" width="30" 
-      height="100" on-touch="unlocked">		 
+      img="TombStone (1).png" x="450" y="130" width="40" 
+      height="40" on-touch="unlocked">		 
     	
-      <unlocked img="switchUnlocked.png" />    
+      <unlocked img="SignArrow.png" />    
+    </agent>
+
+    <agent 
+      img="SignArrow.png" x="450" y="130" width="40" 
+      height="40" on-touch="unlocked">		 
+    	
+      <unlocked img="SignArrow.png" />    
     </agent>
 
     
