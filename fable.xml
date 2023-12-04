@@ -61,7 +61,7 @@
 
     
     <agent 
-      text="Ajude e" font-size="15" x="20" y="450" 
+      text="Ajude os zumbis a voltarem a vida... Pegue a porção e coloque neles" font-size="15" x="20" y="450" 
       width="400" color="green" on-trigger="lived"> 
     
     	<lived text="Agora tente achar em qual lápide está o caminho para sair" />
