@@ -84,12 +84,12 @@
       <lived x="-200" />
     </agent> 
 
-    <agent img="portion.png" x="450" y="120" width="40" height="40" draggable="true" on-drop="vira_por" on-zone="por2" on-trigger="por2">
+    <agent img="portion.png" x="450" y="120" width="40" height="40" draggable="true" on-drop="vira_por2" on-zone="por2" on-trigger="por2">
       <lived x="-200" />
     </agent> 
         
-    <agent img="zombie_hold2.png" x="300" y="127" width="80" height="80" drop-zone="por1"> 
-      <vira img="homzumbi-PhotoRoom.png-PhotoRoom.png" width="80" height="80"/> 
+    <agent img="zombie_hold2.png" x="300" y="127" width="80" height="80" drop-zone="vira_por1"> 
+      <vira_por1 img="homzumbi-PhotoRoom.png-PhotoRoom.png" width="80" height="80"/> 
     </agent>
 
         
