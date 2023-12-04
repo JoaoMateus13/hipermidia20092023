@@ -10,7 +10,7 @@
       text="Oh não! um desafio pela frente... PEGUE UM CRÂNIO PARA PASSAR PELOS ZUMBIS" font-size="18" x="20" y="450" 
       width="400" color="green" on-trigger="restore"> 
     
-    	<restore text="Agora tente achar em qual lampide está" />
+    	<restore text="Agora tente achar em qual lápide está o caminho para sair" />
     </agent>
     
     <agent img="adventurer_hurt.png" x="50" y="130" width="80" 
@@ -64,11 +64,7 @@
     <page background="noite_dark.png".png" >
 
     
-    <agent 
-      img="TombStone (1).png" x="450" y="130" width="40" 
-      height="40" on-touch="unlocked">		 
-    	
-      <unlocked img="SignArrow.png" on-touch="_NEXT_PAGE"/>    
+    <agent img="" 
     </agent>
 
     </page>
