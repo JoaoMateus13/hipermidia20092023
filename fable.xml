@@ -89,12 +89,12 @@
     </agent> 
         
     <agent img="zombie_hold2.png" x="300" y="127" width="80" height="80" drop-zone="vira_por"> 
-      <vira_por1 img="player_cheer2.png" width="80" height="80"/> 
+      <vira_por img="player_cheer2.png" width="80" height="80"/> 
     </agent>
 
         
     <agent img="zombie_fall.png" x="380" y="124" width="80" height="80"drop-zone="vira_por"> 
-      <vira_por1 img="solider_cheer2.png" width="80" height="80"/> 
+      <vira_por img="solider_cheer2.png" width="80" height="80"/> 
     </agent>
         
     <agent img="Bone (3).png" x="350" y="120" width="50" height="40" />
