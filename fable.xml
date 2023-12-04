@@ -4,7 +4,7 @@
 
     
     <agent img="zombie_action1.png" x="380" y="130" width="80" height="80" />
-    <agent img="zombie_duck.png" x="300" y="130" width="80" height="80" />
+    <agent img="zombie_kick.png" x="300" y="130" width="80" height="80" />
 
     <agent 
       text="Oh não! um desafio pela frente... pegue um crânio e leve até o boneco para passar pelos zumbis" font-size="15" x="20" y="450" 
@@ -57,7 +57,7 @@
     
 </page>
     
-    <page background="noite_dark.png".png" >
+    <page background="noite_dark.png" >
 
     
     <agent 
