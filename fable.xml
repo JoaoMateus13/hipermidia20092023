@@ -7,7 +7,9 @@
     <agent img="zombie_kick.png" x="300" y="130" width="80" height="80" />
 
     <agent 
-      text="Oh não! um desafio pela frente... pegue um crânio e leve até o boneco para passar pelos zumbis" font-size="15" x="20" y="450" 
+      text="Zed acordou em um cemitério estranho e sombrio, completamente confuso e assustado. Ele olhou ao redor e percebeu que estava cercado por zumbis que vagavam lentamente entre as lápides, gemendo e procurando por carne humana.... 
+        
+        Pegue um crânio e leve até o boneco para passar pelos zumbis" font-size="15" x="20" y="350" 
       width="400" color="green" on-trigger="lived"> 
     
     	<lived text="Agora tente achar em qual lápide está o caminho para sair" />
