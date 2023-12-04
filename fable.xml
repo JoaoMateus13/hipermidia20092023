@@ -62,9 +62,9 @@
     
     <agent 
       text="Ajude os zumbis a voltarem a vida... Pegue a porção e coloque neles" font-size="15" x="20" y="450" 
-      width="400" color="green" on-trigger="l"> 
+      width="400" color="green" on-trigger="por2"> 
     
-    	<lived text="Agora tente achar em qual lápide está o caminho para sair" />
+    	<lived text="AGROA VAMOS PARA CASAAA" />
     </agent>
     
     <agent img="adventurer_walk1.png"  x="50" y="130" width="80" 
@@ -81,11 +81,11 @@
     <agent img="Bone (2).png" x="350" y="120" width="50" height="40" />
 
     <agent img="portion.png" x="450" y="120" width="40" height="40" draggable="true" on-drop="vira_por" on-zone="por1" on-trigger="por1">
-      <lived x="-200" />
+      <por1 x="-200" />
     </agent> 
 
     <agent img="portion.png" x="450" y="120" width="40" height="40" draggable="true" on-drop="vira_por" on-zone="por2" on-trigger="por2">
-      <lived x="-200" />
+      <por2 x="-200" />
     </agent> 
 
         
