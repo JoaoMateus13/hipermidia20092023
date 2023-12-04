@@ -17,7 +17,7 @@
     <agent img="SignArrow.png" x="450" y="130" width="40" height="40"/>
 
     <agent 
-      img="switchLock.png" x="100" y="100" width="30" 
+      img="TombStone (2).png" x="450" y="130" width="30" 
       height="100" on-touch="unlocked">		 
     	
       <unlocked img="switchUnlocked.png" />    
@@ -52,7 +52,6 @@
     <agent img="Bone (2).png" x="150" y="115" width="50" height="40" />
     <agent img="Bone (2).png" x="130" y="115" width="50" height="40" />
 
-    <agent video="mov.mp4" x="50" y="50" width="300" height="300" />
     
 </page>
     
