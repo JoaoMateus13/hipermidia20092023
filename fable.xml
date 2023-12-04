@@ -7,8 +7,8 @@
     <agent img="zombie_duck.png" x="300" y="130" width="80" height="80" />
 
     <agent 
-      text="Oh não! um desafio pela frente... PEGUE UM CRÂNIO PARA PASSAR PELOS ZUMBIS" font-size="18" x="20" y="450" 
-      width="400" color="green" on="restore"> 
+      text="Oh não! um desafio pela frente... pegue um crânio e leve até o boneco para passar pelos zumbis" font-size="18" x="20" y="450" 
+      width="400" color="green" on-trigger="restore"> 
     
     	<restore text="Agora tente achar em qual lápide está o caminho para sair" />
     </agent>
