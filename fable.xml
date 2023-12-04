@@ -24,7 +24,7 @@
       img="TombStone (1).png" x="450" y="130" width="40" 
       height="40" on-touch="lapi">		 
     	
-      <lapi img="SignArrow.png" on-trigger="_NEXT_PAGE"/>    
+      <lapi img="SignArrow.png" on-touch="_NEXT_PAGE"/>    
     </agent>
 
     
