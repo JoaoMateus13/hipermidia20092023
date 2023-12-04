@@ -25,8 +25,8 @@
     <agent img="Bone (2).png" x="280" y="120" width="50" height="40" />
     <agent img="Bone (2).png" x="250" y="120" width="50" height="40" />
     <agent img="Bone (3).png" x="250" y="120" width="50" height="40" />
-    <agent img="Bone (4).png" x="220" y="120" width="50" height="40" />
-    <agent img="Bone (4).png" x="230" y="120" width="50" height="40" />
+    <agent img="Bone (4).png" x="220" y="115" width="50" height="40" />
+    <agent img="Bone (4).png" x="230" y="115" width="50" height="40" />
 
     <agent video="mov.mp4" x="50" y="50" width="300" height="300" />
     
