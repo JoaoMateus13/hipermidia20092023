@@ -10,9 +10,9 @@
 
     <agent 
       text="Oh não! um desafio pela frente..." font-size="18" x="20" y="450" 
-      width="400" color="green" on-trigger="cortada"> 
+      width="400" color="green" on-trigger="restore"> 
     
-    	<cortada text="O caminhos está livre!" />
+    	<restore text="O caminhos está livre!" />
     </agent>
     
     <agent img="adventurer_hurt.png" x="50" y="130" width="80" 
@@ -20,6 +20,8 @@
     	
       <restore img="homzumbi-PhotoRoom.png-PhotoRoom.png" width="80" height="80" /> 
     </agent>
+
+    
 
     
 
