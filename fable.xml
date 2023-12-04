@@ -10,10 +10,10 @@
     <agent img="adventurer_hurt.png" x="50" y="130" width="80" 
       height="80" drop-zone="restore"> 
     	
-      <restore img="head.png" width="80" height="80" /> 
+      <restore img="head.png" width="10" height="10" /> 
     </agent>
 
-    <agent img="adventurer_hurt.png" x="50" y="130" width="80" />
+    <agent img="adventurer_hurt.png" x="50" y="130" width="80" height="80"/>
     
 
 
