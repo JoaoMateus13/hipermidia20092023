@@ -13,9 +13,7 @@
       <restore img="homzumbi-PhotoRoom.png-PhotoRoom.png" width="80" height="80" /> 
     </agent>
 
-    <agent img="TombStone (1).png" x="450" y="130" width="40" height="40" drop-zone="restore"> 
-    	
-      <restore img="SingArrow.png" width="80" height="80" /> 
+    <agent img="TombStone (1).png" x="450" y="130" width="40" height="40"
     </agent>
 
     
