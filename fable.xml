@@ -16,7 +16,7 @@
     <agent img="adventurer_hurt.png" x="50" y="130" width="80" 
       height="80" drop-zone="restore" on-trigger="outscreen"> 
     	
-      <outscreen img="homzumbi-PhotoRoom.png-PhotoRoom.png" width="80" height="80"/> 
+      <restore img="homzumbi-PhotoRoom.png-PhotoRoom.png" width="80" height="80"/> 
     </agent>
 
         
