@@ -1,12 +1,19 @@
 <fable>
 	<page background="noite_dark.png".png" soundtrack="Large-Zombie-Horde-www.fesliyanstudios.com.mp3">
   
-    <agent text="Zed acordou em um cemitério estranho e sombrio, completamente confuso e assustado. Ele olhou ao redor e percebeu que estava cercado por zumbis que vagavam lentamente entre as lápides, gemendo e procurando por carne humana." x="30" y="400" color='green'/>
+
 
     <agent text="PEGUE UM CRÂNIO PARA PASSAR PELOS ZUMBIS" x="30" y="350" color='green'/>
     
     <agent img="zombie_duck.png" x="380" y="130" width="80" height="80" />
     <agent img="zombie_duck.png" x="300" y="130" width="80" height="80" />
+
+    <agent 
+      text="Oh não! um desafio pela frente..." font-size="18" x="20" y="450" 
+      width="400" color="green" on-trigger="cortada"> 
+    
+    	<cortada text="O caminhos está livre!" />
+    </agent>
     
     <agent img="adventurer_hurt.png" x="50" y="130" width="80" 
       height="80" drop-zone="restore"> 
