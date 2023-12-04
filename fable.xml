@@ -16,6 +16,13 @@
 
     <agent img="SignArrow.png" x="450" y="130" width="40" height="40"/>
 
+    <agent 
+      img="switchLock.png" x="100" y="100" width="30" 
+      height="100" on-touch="unlocked">		 
+    	
+      <unlocked img="switchUnlocked.png" />    
+    </agent>
+
     
 
 
