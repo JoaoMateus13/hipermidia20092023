@@ -8,7 +8,7 @@
 
     <agent 
       text="Oh não! um desafio pela frente... PEGUE UM CRÂNIO PARA PASSAR PELOS ZUMBIS" font-size="18" x="20" y="450" 
-      width="400" color="green" on-trigger="restore"> 
+      width="400" color="green" on="restore"> 
     
     	<restore text="Agora tente achar em qual lápide está o caminho para sair" />
     </agent>
