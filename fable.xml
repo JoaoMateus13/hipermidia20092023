@@ -6,27 +6,6 @@
     <agent img="zombie_duck.png" x="380" y="130" width="80" height="80" />
     <agent img="zombie_duck.png" x="300" y="130" width="80" height="80" />
 
-    <agent 
-      text="Oh não! um desafio pela frente... pegue um crânio e leve até o boneco para passar pelos zumbis" font-size="15" x="20" y="450" 
-      width="400" color="green" on-trigger="restore"> 
-    
-    	<restore text="Agora tente achar em qual lápide está o caminho para sair" />
-    </agent>
-    
-    <agent img="adventurer_hurt.png" x="50" y="130" width="80" 
-      height="80" drop-zone="restore"> 
-    	
-      <restore img="homzumbi-PhotoRoom.png-PhotoRoom.png" width="80" height="80" /> 
-    </agent>
-
-        
-    <agent 
-      img="TombStone (1).png" x="450" y="130" width="40" 
-      height="40" on-trigger="restore">		 
-    	
-      <restore img="SignArrow.png" on-touch="_NEXT_PAGE"/>    
-    </agent>
-
     
 
     
@@ -79,7 +58,8 @@
     </agent>   
     
     <agent 
-      img="Barrel.png" x="20" y="100" width="50" height="60" 
+      img="Bone (2).png" x="310" y="120" 
+      width="50" height="40" 
       draggable="true" on-drop="explode" on-zone="outscreen" 
       on-trigger="outscreen">
     
