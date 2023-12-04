@@ -8,15 +8,15 @@
 
     <agent 
       text="Oh não! um desafio pela frente... pegue um crânio e leve até o boneco para passar pelos zumbis" font-size="15" x="20" y="450" 
-      width="400" color="green" on-trigger="restore"> 
+      width="400" color="green" on-trigger="outscreen"> 
     
     	<restore text="Agora tente achar em qual lápide está o caminho para sair" />
     </agent>
     
     <agent img="adventurer_hurt.png" x="50" y="130" width="80" 
-      height="80" drop-zone="restore"> 
+      height="80" drop-zone="restore" on-trigger="outscreen"> 
     	
-      <restore img="homzumbi-PhotoRoom.png-PhotoRoom.png" width="80" height="80" /> 
+      <restore img="homzumbi-PhotoRoom.png-PhotoRoom.png" width="80" height="80"/> 
     </agent>
 
         
@@ -57,35 +57,6 @@
     <agent img="Bone (3).png" x="170" y="120" width="50" height="40" />
     <agent img="Bone (2).png" x="150" y="115" width="50" height="40" />
     <agent img="Bone (2).png" x="130" y="115" width="50" height="40" />
-
-    <agent text="Oh não! um desafio pela frente... pegue um crânio e leve até o boneco para passar pelos zumbis"  
-      x="20" y="410" font-size="18" color="white" 
-      width="300" on-trigger="outscreen">
-      
-    	<outscreen text="Acesso liberado! agora vamos salvar o meu amigo!!" />
-    </agent>
-    
-
-    <agent 
-      img="TombStone (1).png" x="450" y="130" width="40" 
-      height="40" on-touch="open">
-    	
-      <open img="SignArrow.png" on-touch="_NEXT_PAGE" />
-    </agent>
-    
-    <agent img="adventurer_hurt.png" x="50" y="130" width="80" 
-      height="80" drop-zone="explode">
-    	<explode y="-200" />
-    </agent>   
-    
-    <agent 
-      img="Bone (2).png" x="310" y="120" 
-      width="50" height="40" 
-      draggable="true" on-drop="explode" on-zone="outscreen" 
-      on-trigger="outscreen">
-    
-      <outscreen y="-200" /> 
-    </agent> 
     
 </page>
     
