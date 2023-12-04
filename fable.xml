@@ -64,8 +64,7 @@
     <page background="noite_dark.png".png" >
 
     
-    <agent img="" 
-    </agent>
+    <agent img="zombie_duck.png" x="34" y="35" height="23" width="34"/>
 
     </page>
 </fable>
