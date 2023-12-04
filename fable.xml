@@ -9,7 +9,8 @@
 
     <agent img="adventurer_hurt.png" x="30" y="130" width="80" height="80" />
 
-    <agent img="Tile (1).png" x="40" y="130" width="80" height="80" />
+    <agent img="Tile (1).png" x="10" y="130" width="80" height="80" />
+    <agent img="Tile (2).png" x="70" y="130" width="80" height="80" />
     <agent img="Tile (2).png" x="160" y="130" width="80" height="80" />
     <agent img="Tile (2).png" x="240" y="130" width="80" height="80" />
     <agent img="Tile (2).png" x="320" y="130" width="80" height="80" />
