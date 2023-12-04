@@ -80,15 +80,19 @@
     <agent img="Bone (2).png" x="380" y="120" width="50" height="40" />
     <agent img="Bone (2).png" x="350" y="120" width="50" height="40" />
 
-    <agent img="portion.png" x="450" y="120" width="40" height="40" draggable="true" on-drop="vira" on-zone="por" on-trigger="por">
+    <agent img="portion.png" x="450" y="120" width="40" height="40" draggable="true" on-drop="vira_por1" on-zone="por1" on-trigger="por1">
       <lived x="-200" />
     </agent> 
 
-    <agent img="portion.png" x="450" y="120" width="40" height="40" draggable="true" on-drop="vira" on-zone="por" on-trigger="por">
+    <agent img="portion.png" x="450" y="120" width="40" height="40" draggable="true" on-drop="vira_por" on-zone="por2" on-trigger="por2">
       <lived x="-200" />
     </agent> 
         
-    <agent img="zombie_hold2.png" x="300" y="127" width="80" height="80" />
+    <agent img="zombie_hold2.png" x="300" y="127" width="80" height="80" drop-zone="por1"> 
+      <vira img="homzumbi-PhotoRoom.png-PhotoRoom.png" width="80" height="80"/> 
+    </agent>
+
+        
     <agent img="zombie_fall.png" x="380" y="124" width="80" height="80" />
         
     <agent img="Bone (3).png" x="350" y="120" width="50" height="40" />
