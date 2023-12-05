@@ -21,7 +21,7 @@
     </agent>
 
     <agent 
-      text="Pegue um crânio e leve até o boneco para passar pelos zumbis" font-size="15" x="20" y="330" 
+      text="Hmmm.. que tal usar um desses crânios para passar por esses zumbis" font-size="15" x="20" y="330" 
       width="400" color="red" on-trigger="lived"> 
     
     	<lived text="Agora tente achar em qual lápide está o caminho para sair" />
