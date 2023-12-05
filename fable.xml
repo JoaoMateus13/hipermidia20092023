@@ -1,7 +1,7 @@
 <fable>
    <page background="menu.png">
         <agent text="Zed perdido no cemitério" color="green" x="59" y="430" font-size="30"/>
-        <agent text="BORA JOGAR" color="black" x="125" y="300" font-size="35" on-touch=""/>
+        <agent text="BORA JOGAR" color="black" x="125" y="300" font-size="35" on-touch="_NEXT_PAGE"/>
 
     </page>
 
