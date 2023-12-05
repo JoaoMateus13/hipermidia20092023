@@ -86,7 +86,8 @@
     </page>
 
 
-    <page page background="menu.png">
+    <page page background="noite_dark.png">
          <agent img="Bone (3).png" x="350" y="120" width="50" height="40"/>
+        
     </page>
 </fable>
