@@ -1,9 +1,8 @@
 <fable>
    <page background="menu.png">
-        <agent text="Zed perdido no cemitério" color="green" x="105" y="150" font-size="35"/>
-        <agent text="FASE 1" color="white" x="175" y="300" font-size="45" on-touch="_GOTO_PAGE:2"/>
-        <agent text="FASE 2" color="white" x="175" y="250" font-size="45" on-touch="_GOTO_PAGE:3"/>
-        <agent text="FASE 3" color="white" x="175" y="200" font-size="45" on-touch="_GOTO_PAGE:4"/>
+        <agent text="Zed perdido no cemitério" color="green" x="59" y="430" font-size="30"/>
+        <agent text="FASE 1" color="black" x="175" y="300" font-size="45" on-touch="_GOTO_PAGE:2"/>
+
     </page>
 
 
