@@ -69,7 +69,7 @@
             <vira_por img="soldier_cheer2.png" width="80" height="80"/>
         </agent>
 
-        <agent img="SignArrow.png" x="450" y="130" width="40" height="40" on-trigger="por2">
+        <agent img="SignArrow.png" x="450" y="130" width="40" height="40" on-trigger="por1">
             <lapi img="SignArrow.png" on-touch="_NEXT_PAGE"/>
         </agent>
 
