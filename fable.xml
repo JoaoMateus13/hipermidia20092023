@@ -59,7 +59,7 @@
         <agent img="portion.png" x="450" y="120" width="40" height="40" draggable="true" on-drop="vira_por1" on-zone="por1" on-trigger="por1">
             <por1 x="-200"/>
         </agent>
-        <agent img="portion.png" x="450" y="120" width="40" height="40" draggable="true" on-drop="vira_por" on-zone="por2" on-trigger="por2">
+        <agent img="portion.png" x="120" y="120" width="40" height="40" draggable="true" on-drop="vira_por" on-zone="por2" on-trigger="por2">
             <por2 x="-200"/>
         </agent>
         <agent img="zombie_hold2.png" x="300" y="127" width="80" height="80" drop-zone="vira_por1">
@@ -69,7 +69,7 @@
             <vira_por img="soldier_cheer2.png" width="80" height="80"/>
         </agent>
 
-        <agent img="TombStone (1).png" x="450" y="130" width="40" height="40" on-trigger="vira_por">
+        <agent img="SignArrow.png" x="450" y="130" width="40" height="40" on-trigger="vira_por">
             <lapi img="SignArrow.png" on-touch="_NEXT_PAGE"/>
         </agent>
 
