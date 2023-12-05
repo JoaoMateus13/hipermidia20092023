@@ -1,4 +1,13 @@
 <fable>
+   <page background="menu.png">
+        <agent text="Zed perdido na " color="white" x="105" y="450" font-size="35"/>
+        <agent text="FASE 1" color="white" x="175" y="300" font-size="45" on-touch="_GOTO_PAGE:2"/>
+        <agent text="FASE 2" color="white" x="175" y="250" font-size="45" on-touch="_GOTO_PAGE:3"/>
+        <agent text="FASE 3" color="white" x="175" y="200" font-size="45" on-touch="_GOTO_PAGE:4"/>
+    </page>
+
+
+    
 	<page background="noite_dark.png".png" soundtrack="Large-Zombie-Horde-www.fesliyanstudios.com.mp3">
   
 
