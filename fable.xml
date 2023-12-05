@@ -1,129 +1,84 @@
 <fable>
-   <page background="menu.png">
+    <page background="menu.png">
         <agent text="Zed perdido no cemitério" color="red" x="59" y="430" font-size="30"/>
         <agent text="BORA JOGAR" color="white" x="125" y="300" font-size="35" on-touch="_NEXT_PAGE"/>
-
     </page>
-
-
-    
-	<page background="noite_dark.png" soundtrack="Large-Zombie-Horde-www.fesliyanstudios.com.mp3">
-  
-
-    <agent img="zombie_action1.png" x="380" y="130" width="80" height="80" />
-    <agent img="zombie_kick.png" x="300" y="130" width="80" height="80" />
-
-    <agent 
-      text="Zed acordou em um cemitério estranho e sombrio, completamente confuso e assustado. Ele olhou ao redor e percebeu que estava cercado por zumbis que vagavam lentamente entre as lápides, gemendo e procurando por carne humana...." font-size="15" x="20" y="390" 
-      width="400" color="green" on-trigger="lived"> 
-    
-    	<lived text="" />
-    </agent>
-
-    <agent 
-      text="Hmmm.. que tal usar um desses crânios para passar por esses zumbis" font-size="15" x="20" y="330" 
-      width="400" color="red" on-trigger="lived"> 
-    
-    	<lived text="Agora é só achar o caminho para sair" />
-    </agent>
-    
-    <agent img="adventurer_hurt.png" x="50" y="130" width="80" 
-      height="80" drop-zone="vira"> 
-    	
-      <vira img="homzumbi-PhotoRoom.png-PhotoRoom.png" width="80" height="80"/> 
-    </agent>
-
-        
-    <agent 
-      img="TombStone (1).png" x="450" y="130" width="40" 
-      height="40" on-touch="lapi">		 
-    	
-      <lapi img="SignArrow.png" on-touch="_NEXT_PAGE"/>    
-    </agent>
-
-    
-
-    <agent img="Tile (1).png" x="0" y="50" width="80" height="80" />
-    <agent img="Tile (2).png" x="80" y="50" width="80" height="80" />
-    <agent img="Tile (2).png" x="160" y="50" width="80" height="80" />
-    <agent img="Tile (2).png" x="240" y="50" width="80" height="80" />
-    <agent img="Tile (2).png" x="320" y="50" width="120" height="80" />
-    <agent img="Tile (3).png" x="420" y="50" width="80" height="80" />
-
-    <agent img="TombStone (2).png" x="280" y="130" width="40" height="40" />
-    <agent img="Bone (2).png" x="380" y="120" width="50" height="40" />
-    <agent img="Bone (2).png" x="350" y="120" width="50" height="40" />
-    <agent img="Bone (3).png" x="350" y="120" width="50" height="40" />
-    <agent img="Bone (4).png" x="320" y="120" width="50" height="40" />
-    <agent img="Bone (4).png" x="330" y="120" width="50" height="40" />
-    <agent img="Bone (2).png" x="310" y="120" 
-      width="50" height="40" draggable="true" on-drop="vira" on-zone="lived" on-trigger="lived">
-      <lived x="-200" />
-    </agent> 
-    <agent img="Bone (2).png" x="250" y="120" width="50" height="40" />
-    <agent img="Bone (3).png" x="250" y="120" width="50" height="40" />
-    <agent img="Bone (4).png" x="220" y="115" width="50" height="40" />
-    <agent img="Bone (4).png" x="230" y="115" width="50" height="40" />
-    <agent img="Bone (2).png" x="190" y="120" width="50" height="40" />
-    <agent img="Bone (3).png" x="170" y="120" width="50" height="40" />
-    <agent img="Bone (2).png" x="150" y="115" width="50" height="40" />
-    <agent img="Bone (2).png" x="130" y="115" width="50" height="40" />
-    
-</page>
-    
-    <page background="noite_dark.png" soundtrack="Clock-Ticking-C-www.fesliyanstudios.com.mp3" >
-
-    
-    <agent 
-      text="Zed percebeu algo nos zumbis e decidiu voltar para ajudar... Pegue a porção e coloque nos zumbis" font-size="15" x="20" y="450" 
-      width="400" color="green" on-trigger="por2"> 
-    
-    	<lived text="AGROA VAMOS PARA CASAAA" />
-    </agent>
-    
-    <agent img="adventurer_hold2.png"  x="50" y="130" width="80" 
-      height="80"/>
-        
-    <agent img="Tile (1).png" x="0" y="50" width="80" height="80" />
-    <agent img="Tile (2).png" x="80" y="50" width="80" height="80" />
-    <agent img="Tile (2).png" x="160" y="50" width="80" height="80" />
-    <agent img="Tile (2).png" x="240" y="50" width="80" height="80" />
-    <agent img="Tile (2).png" x="320" y="50" width="120" height="80" />
-    <agent img="Tile (3).png" x="420" y="50" width="80" height="80" />
-    <agent img="TombStone (2).png" x="280" y="130" width="40" height="40" />
-    <agent img="Bone (2).png" x="380" y="120" width="50" height="40" />
-    <agent img="Bone (2).png" x="350" y="120" width="50" height="40" />
-
-    <agent img="portion.png" x="450" y="120" width="40" height="40" draggable="true" on-drop="vira_por" on-zone="por1" on-trigger="por1">
-      <por1 x="-200" />
-    </agent> 
-
-    <agent img="portion.png" x="450" y="120" width="40" height="40" draggable="true" on-drop="vira_por" on-zone="por2" on-trigger="por2">
-      <por2 x="-200" />
-    </agent> 
-
-        
-    <agent img="zombie_hold2.png" x="300" y="127" width="80" height="80" drop-zone="vira_por"> 
-      <vira_por img="player_cheer2.png" width="80" height="80"/> 
-    </agent>
-
-        
-    <agent img="zombie_fall.png" x="380" y="124" width="80" height="80" drop-zone="vira_por"> 
-      <vira_por img="soldier_cheer2.png" width="80" height="80" /> 
-    </agent>
-        
-    <agent img="Bone (3).png" x="350" y="120" width="50" height="40" />
-    <agent img="Bone (4).png" x="320" y="120" width="50" height="40" />
-    <agent img="Bone (4).png" x="330" y="120" width="50" height="40" />
-    <agent img="Bone (2).png" x="310" y="120" width="50" height="40"/> 
-    <agent img="Bone (2).png" x="250" y="120" width="50" height="40" />
-    <agent img="Bone (3).png" x="250" y="120" width="50" height="40" />
-    <agent img="Bone (4).png" x="220" y="115" width="50" height="40" />
-    <agent img="Bone (4).png" x="230" y="115" width="50" height="40" />
-    <agent img="Bone (2).png" x="190" y="120" width="50" height="40" />
-    <agent img="Bone (3).png" x="170" y="120" width="50" height="40" />
-    <agent img="Bone (2).png" x="150" y="115" width="50" height="40" />
-    <agent img="Bone (2).png" x="130" y="115" width="50" height="40" />
-
+    <page background="noite_dark.png" soundtrack="Large-Zombie-Horde-www.fesliyanstudios.com.mp3">
+        <agent img="zombie_action1.png" x="380" y="130" width="80" height="80"/>
+        <agent img="zombie_kick.png" x="300" y="130" width="80" height="80"/>
+        <agent text="Zed acordou em um cemitério estranho e sombrio, completamente confuso e assustado. Ele olhou ao redor e percebeu que estava cercado por zumbis que vagavam lentamente entre as lápides, gemendo e procurando por carne humana...." font-size="15" x="20" y="390" width="400" color="green" on-trigger="lived">
+            <lived text=""/>
+        </agent>
+        <agent text="Hmmm.. que tal usar um desses crânios para passar por esses zumbis" font-size="15" x="20" y="330" width="400" color="red" on-trigger="lived">
+            <lived text="Agora é só achar o caminho para sair"/>
+        </agent>
+        <agent img="adventurer_hurt.png" x="50" y="130" width="80" height="80" drop-zone="vira">
+            <vira img="homzumbi-PhotoRoom.png-PhotoRoom.png" width="80" height="80"/>
+        </agent>
+        <agent img="TombStone (1).png" x="450" y="130" width="40" height="40" on-touch="lapi">
+            <lapi img="SignArrow.png" on-touch="_NEXT_PAGE"/>
+        </agent>
+        <agent img="Tile (1).png" x="0" y="50" width="80" height="80"/>
+        <agent img="Tile (2).png" x="80" y="50" width="80" height="80"/>
+        <agent img="Tile (2).png" x="160" y="50" width="80" height="80"/>
+        <agent img="Tile (2).png" x="240" y="50" width="80" height="80"/>
+        <agent img="Tile (2).png" x="320" y="50" width="120" height="80"/>
+        <agent img="Tile (3).png" x="420" y="50" width="80" height="80"/>
+        <agent img="TombStone (2).png" x="280" y="130" width="40" height="40"/>
+        <agent img="Bone (2).png" x="380" y="120" width="50" height="40"/>
+        <agent img="Bone (2).png" x="350" y="120" width="50" height="40"/>
+        <agent img="Bone (3).png" x="350" y="120" width="50" height="40"/>
+        <agent img="Bone (4).png" x="320" y="120" width="50" height="40"/>
+        <agent img="Bone (4).png" x="330" y="120" width="50" height="40"/>
+        <agent img="Bone (2).png" x="310" y="120" width="50" height="40" draggable="true" on-drop="vira" on-zone="lived" on-trigger="lived">
+            <lived x="-200"/>
+        </agent>
+        <agent img="Bone (2).png" x="250" y="120" width="50" height="40"/>
+        <agent img="Bone (3).png" x="250" y="120" width="50" height="40"/>
+        <agent img="Bone (4).png" x="220" y="115" width="50" height="40"/>
+        <agent img="Bone (4).png" x="230" y="115" width="50" height="40"/>
+        <agent img="Bone (2).png" x="190" y="120" width="50" height="40"/>
+        <agent img="Bone (3).png" x="170" y="120" width="50" height="40"/>
+        <agent img="Bone (2).png" x="150" y="115" width="50" height="40"/>
+        <agent img="Bone (2).png" x="130" y="115" width="50" height="40"/>
+    </page>
+    <page background="noite_dark.png" soundtrack="Clock-Ticking-C-www.fesliyanstudios.com.mp3">
+        <agent text="Zed percebeu algo nos zumbis e decidiu voltar para ajudar... Pegue a porção e coloque nos zumbis" font-size="15" x="20" y="450" width="400" color="green" on-trigger="por2">
+            <lived text="AGROA VAMOS PARA CASAAA"/>
+        </agent>
+        <agent img="adventurer_hold2.png" x="50" y="130" width="80" height="80"/>
+        <agent img="Tile (1).png" x="0" y="50" width="80" height="80"/>
+        <agent img="Tile (2).png" x="80" y="50" width="80" height="80"/>
+        <agent img="Tile (2).png" x="160" y="50" width="80" height="80"/>
+        <agent img="Tile (2).png" x="240" y="50" width="80" height="80"/>
+        <agent img="Tile (2).png" x="320" y="50" width="120" height="80"/>
+        <agent img="Tile (3).png" x="420" y="50" width="80" height="80"/>
+        <agent img="TombStone (2).png" x="280" y="130" width="40" height="40"/>
+        <agent img="Bone (2).png" x="380" y="120" width="50" height="40"/>
+        <agent img="Bone (2).png" x="350" y="120" width="50" height="40"/>
+        <agent img="portion.png" x="450" y="120" width="40" height="40" draggable="true" on-drop="vira_por" on-zone="por1" on-trigger="por1">
+            <por1 x="-200"/>
+        </agent>
+        <agent img="portion.png" x="450" y="120" width="40" height="40" draggable="true" on-drop="vira_por" on-zone="por2" on-trigger="por2">
+            <por2 x="-200"/>
+        </agent>
+        <agent img="zombie_hold2.png" x="300" y="127" width="80" height="80" drop-zone="vira_por">
+            <vira_por img="player_cheer2.png" width="80" height="80"/>
+        </agent>
+        <agent img="zombie_fall.png" x="380" y="124" width="80" height="80" drop-zone="vira_por">
+            <vira_por img="soldier_cheer2.png" width="80" height="80"/>
+        </agent>
+        <agent img="Bone (3).png" x="350" y="120" width="50" height="40"/>
+        <agent img="Bone (4).png" x="320" y="120" width="50" height="40"/>
+        <agent img="Bone (4).png" x="330" y="120" width="50" height="40"/>
+        <agent img="Bone (2).png" x="310" y="120" width="50" height="40"/>
+        <agent img="Bone (2).png" x="250" y="120" width="50" height="40"/>
+        <agent img="Bone (3).png" x="250" y="120" width="50" height="40"/>
+        <agent img="Bone (4).png" x="220" y="115" width="50" height="40"/>
+        <agent img="Bone (4).png" x="230" y="115" width="50" height="40"/>
+        <agent img="Bone (2).png" x="190" y="120" width="50" height="40"/>
+        <agent img="Bone (3).png" x="170" y="120" width="50" height="40"/>
+        <agent img="Bone (2).png" x="150" y="115" width="50" height="40"/>
+        <agent img="Bone (2).png" x="130" y="115" width="50" height="40"/>
     </page>
 </fable>
