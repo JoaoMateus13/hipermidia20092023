@@ -75,7 +75,7 @@
 
     
     <agent 
-      text="Zed reconheceu os zumbis e decidiu voltar para ajudar... Pegue a porção e coloque neles" font-size="15" x="20" y="450" 
+      text="Zed percebeu algo nos zumbis e decidiu voltar para ajudar... Pegue a porção e coloque nos zumbis" font-size="15" x="20" y="450" 
       width="400" color="green" on-trigger="por2"> 
     
     	<lived text="AGROA VAMOS PARA CASAAA" />
