@@ -57,15 +57,15 @@
         <agent img="Bone (2).png" x="380" y="120" width="50" height="40"/>
         <agent img="Bone (2).png" x="350" y="120" width="50" height="40"/>
         <agent img="portion.png" x="115" y="120" width="40" height="40" draggable="true" on-drop="vira_por1" on-zone="por1" on-trigger="por1">
-            <por1 x="-200"/>
+            <por1 x="-500"/>
         </agent>
         <agent img="portion.png" x="110" y="120" width="40" height="40" draggable="true" on-drop="vira_por" on-zone="por2" on-trigger="por2">
-            <por2 x="-200"/>
+            <por2 x="-500"/>
         </agent>
         <agent img="zombie_hold2.png" x="300" y="127" width="80" height="80" drop-zone="vira_por1">
             <vira_por1 img="player_cheer2.png" width="80" height="80"/>
         </agent>
-        <agent img="zombie_fall.png" x="380" y="124" width="80" height="80" drop-zone="vira_por">
+        <agent img="zombie_fall.png" x="380" y="124" width="80" height="80" drop-zone="vira_por1">
             <vira_por img="soldier_cheer2.png" width="80" height="80"/>
         </agent>
 
@@ -83,8 +83,5 @@
         <agent img="Bone (4).png" x="220" y="115" width="50" height="40"/>
         <agent img="Bone (4).png" x="230" y="115" width="50" height="40"/>
         <agent img="Bone (2).png" x="190" y="120" width="50" height="40"/>
-        <agent img="Bone (3).png" x="170" y="120" width="50" height="40"/>
-        <agent img="Bone (2).png" x="150" y="115" width="50" height="40"/>
-        <agent img="Bone (2).png" x="130" y="115" width="50" height="40"/>
     </page>
 </fable>
