@@ -88,6 +88,8 @@
 
     <page page background="noite_dark.png">
         <agent text="O Barão Trapalhão do Caos emergiu das sombras, rindo maliciosamente ao ver seu plano se concretizando. Ele revelou que a porção era parte de seu esquema maligno para transformar os zumbis em caveiras para servirem a seus propósitos sombrios." font-size="15" x="20" y="390" width="400" color="green"/>
+        
+        <agent img="SignArrow.png" x="450" y="130" width="40" height="40" on-touch="_NEXT_PAGE"/>
         <agent img="adventurer_hurt.png" x="50" y="130" width="80" height="80"/>
         <agent img="449521aa.png" x="300" y="100" width="150" height="150"/>
         <agent img="Tile (1).png" x="0" y="50" width="80" height="80"/>
@@ -98,10 +100,7 @@
         <agent img="Tile (2).png" x="320" y="50" width="120" height="80"/>
         <agent img="Tile (3).png" x="420" y="50" width="80" height="80"/>
 
-        
-        
-        <agent img="SignArrow.png" x="450" y="130" width="40" height="40" on-touch="_NEXT_PAGE">
-        </agent>
+
     </page>
 
 
