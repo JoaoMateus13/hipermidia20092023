@@ -105,7 +105,7 @@
 
     
     <page background="noite_dark.png">
-        <agent text="Agora só resta uma coisa a se fazer" font-size="20" x="20" y="390" width="400" color="green"/>
+        <agent text="Agora só resta uma coisa a se fazer" font-size="30" x="50" y="290" width="400" color="green"/>
         <agent img="SignArrow.png" x="450" y="130" width="40" height="40" on-touch="_NEXT_PAGE"/>
     </page>
     
